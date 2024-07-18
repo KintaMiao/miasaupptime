@@ -1,27 +1,40 @@
 # Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+owner: KintaMiao # Your GitHub organization or username, where this repository lives
+repo: miasaupptime # The name of this repository
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
-  - name: IPv6 test
-    url: forwardemail.net
-    port: 80
+  - name: Miasa Network Website
+    url: https://miasanet.tech
+    method: GET
+  - name: HK Main Server
     check: "tcp-ping"
-    ipv6: true
+    url: 45.125.12.212
+    port: 22
+  - name: Hong Kong VPS
+    check: "tcp-ping"
+    url: 103.169.126.229
+    port: 22
+  - name: USA VPS
+    check: "tcp-ping"
+    url: 208.87.240.5
+    port: 10136
+  - name: UK(GB) VPS
+    check: "tcp-ping"
+    url: 146.103.53.18
+    port: 22
+  - name: Germany VPS
+    check: "tcp-ping"
+    url: 109.71.253.46
+    port: 20195
+  - name: Korea VPS
+    check: "tcp-ping"
+    url: chuncheon.guapi.me
+    port: 10013
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
+  baseUrl: /miasaupptime
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
   name: Upptime
   introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
