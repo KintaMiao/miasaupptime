@@ -22,9 +22,9 @@
     "url": "45.125.12.212",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "hk-main-server",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -33,7 +33,9 @@
     "timeWeek": 187,
     "timeMonth": 187,
     "timeYear": 187,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2024-07-20": 0
+    }
   },
   {
     "name": "Hong Kong VPS",
