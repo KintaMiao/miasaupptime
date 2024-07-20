@@ -22,19 +22,19 @@
     "url": "45.125.12.212",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "hk-main-server",
-    "status": "down",
-    "uptime": "97.99%",
-    "uptimeDay": "96.01%",
-    "uptimeWeek": "97.99%",
-    "uptimeMonth": "97.99%",
-    "uptimeYear": "97.99%",
-    "time": 187,
-    "timeDay": 218,
-    "timeWeek": 187,
-    "timeMonth": 187,
-    "timeYear": 187,
+    "status": "up",
+    "uptime": "93.69%",
+    "uptimeDay": "86.87%",
+    "uptimeWeek": "93.69%",
+    "uptimeMonth": "93.69%",
+    "uptimeYear": "93.69%",
+    "time": 191,
+    "timeDay": 210,
+    "timeWeek": 191,
+    "timeMonth": 191,
+    "timeYear": 191,
     "dailyMinutesDown": {
-      "2024-07-20": 57
+      "2024-07-20": 189
     }
   },
   {
@@ -78,9 +78,9 @@
     "url": "146.103.53.18",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "uk-gb-vps",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -89,7 +89,9 @@
     "timeWeek": 114,
     "timeMonth": 114,
     "timeYear": 114,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2024-07-20": 0
+    }
   },
   {
     "name": "Germany VPS",
