@@ -22,10 +22,6 @@ sites:
     check: "tcp-ping"
     url: 146.103.53.18
     port: 22
-  - name: Germany VPS
-    check: "tcp-ping"
-    url: 109.71.253.46
-    port: 20195
   - name: Korea VPS
     check: "tcp-ping"
     url: chuncheon.guapi.me
